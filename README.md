@@ -36,4 +36,12 @@ The way that the Nightwatch tests are written are functions within the module.ex
 
 It is good practice to put all the tests in a folder to be run together and to keep tests for each kind of functionality
 
+The general format of the tests takes `browser` as an argument, then you `browser.{something}`.
+
+* `url` - The url you want to visit
+* `click` - Pretty self explanitory
+* `waitForElementVisible` - Waits until the element is visible on the document before coninuting.  
+
 ## Cypress
+Once cypress is fully installed you have access to the `cy` keyword.
+
