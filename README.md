@@ -19,8 +19,6 @@ If you store all that information in the json and then import that into the JS f
 
 To make assertions a library will need to be used, either Chai or Expect.js
 
-Running frameworks like Mocha, Jasmine and Karma are useful for
-
 ### Cypress
 Have node installed
 
