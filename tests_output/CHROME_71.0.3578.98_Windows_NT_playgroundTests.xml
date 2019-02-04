@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="4">
+
+  <testsuite name="playgroundTests"
+    errors="3" failures="1" hostname="" id="" package="playgroundTests" skipped="0"
+    tests="4" time="3.976" timestamp="">
+  
+    <testcase name="Gets the playground, selects a radio button and presses submit" classname="playgroundTests" time="1.663" assertions="0">
+    </testcase>
+  
+    <testcase name="Selects third option from the dropdown and submits" classname="playgroundTests" time="0.2910" assertions="0">
+    </testcase>
+  
+    <testcase name="Assert the third option in the product descriptions is correct" classname="playgroundTests" time="0.7910" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click buttons in the iframe and check captions" classname="playgroundTests" time="1.231" assertions="2">
+
+      <failure message="Testing if element &lt;div[.active]&gt; contains text: &#34;Pretty Abstract Right&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Pretty Abstract Right&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Click buttons in the iframe and check captions (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\SeleniumTests\playgroundTests.js:36:21)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    <failure message="    at Object.Click buttons in the iframe and check captions (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\SeleniumTests\playgroundTests.js:36:21)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
