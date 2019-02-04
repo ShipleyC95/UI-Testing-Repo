@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^3.1.5"
+    "cypress": "^3.1.5",
+    "nightwatch": "^1.0.18"
   },
   "devDependencies": {},
   "scripts": {
