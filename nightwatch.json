@@ -1,48 +1,16 @@
 {
-    "src_folders": ["SeleniumTests"],
-    "output_folder": "reports",
-    "custom_commands_path": "",
-    "custom_assertions_path": "",
-    "page_objects_path": "",
-    "globals_path": "",
-
-    "selenium": {
-        "start_process": false,
-        "server_path": "",
-        "log_path": "",
-        "port": 4444,
-        "cli_args": {
-            "webdriver.chrome.driver": "./bin/chromedriver.exe",
-            "webdriver.gecko.driver": "./bin/geckodriver.exe",
-            "webdriver.edge.driver": ""
-        }
+    "src_folders": [
+        "tests"
+    ],
+    "webdriver": {
+        "start_process": true,
+        "server_path": "./bin/chromedriver.exe",
+        "port": 9515
     },
-
     "test_settings": {
         "default": {
-            "launch_url": "https://s3.eu-west-2.amazonaws.com/adddrugdialog/AddDrug.html",
-            "selenium_port": 4444,
-            "selenium_host": "localhost",
-            "silent": true,
-            "screenshots": {
-                "enabled": true,
-                "path": "./SeleniumTests/screenshots"
-            },
-            "desiredCapabilities": {
-                "browserName": "chrome",
-                "marionette": true
-            }
-        },
-
-        "chrome": {
             "desiredCapabilities": {
                 "browserName": "chrome"
-            }
-        },
-
-        "edge": {
-            "desiredCapabilities": {
-                "browserName": "MicrosoftEdge"
             }
         }
     }
