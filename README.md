@@ -44,4 +44,8 @@ The general format of the tests takes `browser` as an argument, then you `browse
 
 ## Cypress
 Once cypress is fully installed you have access to the `cy` keyword.
+This is they keyword you will need to use for the remainder of the actions you wish to perform.
 
+One of the main bonuses of Cypress is 
+
+To open the test runner run `./node_modules/.bin/cypress open` this will find all the test files in your current directory and will have a ton of demo test files which are marked as `.spec.js` 
