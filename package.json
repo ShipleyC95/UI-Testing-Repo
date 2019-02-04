@@ -9,7 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-nightwatch": "./node_modules/.bin/nightwatch",
+    "test-cypress-headed": "./node_modules/.bin/cypress open",
+    "test-cypress-headless": "./node_modules/.bin/cypress run"
   },
   "author": "",
   "license": "ISC"

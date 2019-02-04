@@ -5,16 +5,16 @@
 
   <testsuite name="addDrugTests"
     errors="0" failures="1" hostname="" id="" package="addDrugTests" skipped="0"
-    tests="2" time="3.769" timestamp="">
+    tests="2" time="3.704" timestamp="">
   
-    <testcase name="Add drug test" classname="addDrugTests" time="1.229" assertions="2">
+    <testcase name="Add drug test" classname="addDrugTests" time="1.151" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Add two drugs" classname="addDrugTests" time="2.540" assertions="4">
+    <testcase name="Add two drugs" classname="addDrugTests" time="2.553" assertions="4">
 
     
 
