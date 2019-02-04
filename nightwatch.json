@@ -29,7 +29,7 @@
                 "path": "./SeleniumTests/screenshots"
             },
             "desiredCapabilities": {
-                "browserName": "firefox",
+                "browserName": "chrome",
                 "marionette": true
             }
         },

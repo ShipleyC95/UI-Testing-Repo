@@ -6,7 +6,7 @@ var SELENIUM_CONFIG = {
 };
 
 var FIREFOX_CONFIG = {
-    browserName: 'firefox',
+    browserName: 'chrome',
     javascriptEnabled: true,
     acceptSslCerts: true
 };
