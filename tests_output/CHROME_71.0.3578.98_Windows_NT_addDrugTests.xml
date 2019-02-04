@@ -5,26 +5,26 @@
 
   <testsuite name="addDrugTests"
     errors="0" failures="1" hostname="" id="" package="addDrugTests" skipped="0"
-    tests="2" time="3.704" timestamp="">
+    tests="2" time="3.906" timestamp="">
   
-    <testcase name="Add drug test" classname="addDrugTests" time="1.151" assertions="2">
+    <testcase name="Add drug test" classname="addDrugTests" time="1.194" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Add two drugs" classname="addDrugTests" time="2.553" assertions="4">
+    <testcase name="Add two drugs" classname="addDrugTests" time="2.712" assertions="4">
 
     
 
     
 
-      <failure message="Testing if element &lt;div[id=&#34;1Drug&#34;]&gt; contains text: &#34;Apresoline  Tablets  25 mg&#34; in 1000 ms. - expected [0;32m&#34;Apresoline  Tablets  25 mg&#34;[0m but got: [0;31m&#34;Apresoline Tablets 25 mg One To Be Taken Twice A Day 28 tablets End Date: Invalid Date&#34;[0m">    at Object.Add two drugs (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\SeleniumTests\addDrugTests.js:45:21)
+      <failure message="Testing if element &lt;div[id=&#34;1Drug&#34;]&gt; contains text: &#34;Apresoline  Tablets  25 mg&#34; in 1000 ms. - expected [0;32m&#34;Apresoline  Tablets  25 mg&#34;[0m but got: [0;31m&#34;Apresoline Tablets 25 mg One To Be Taken Twice A Day 28 tablets End Date: Invalid Date&#34;[0m">    at Object.Add two drugs (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\addDrugTests.js:45:21)
     at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
 
-    <failure message="    at Object.Add two drugs (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\SeleniumTests\addDrugTests.js:45:21)">    at &lt;anonymous&gt;
+    <failure message="    at Object.Add two drugs (C:\Users\christopher shipley\OneDrive - EMIS Group\Documents\PDP\GeekClub\UI-Testing-Repo\addDrugTests.js:45:21)">    at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
     </testcase>
   

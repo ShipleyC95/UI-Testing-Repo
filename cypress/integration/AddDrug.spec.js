@@ -29,7 +29,7 @@ describe('My First Test', function() {
 
 describe('My Second Test', function() {
     it('Adds two drugs to the DOM', function() {
-        cy.visit('https://s3.eu-west-2.amazonaws.com/adddrugdialog/AddDrug.html')
+        cy.visit('google.com')
 
         cy.get('#drugInput').type('atar');
 
@@ -65,7 +65,7 @@ describe('My Second Test', function() {
 
         cy.get('#doseInputautocomplete-list>div').eq(0).click()
 
-        cy.get('#drugQuantity').type('28')
+        cy.get('#drugQuantitt').type('28')
         
         cy.get('#duration').click()
 
